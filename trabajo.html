@@ -7,13 +7,37 @@
     <title>Trabajo Practico Numero &</title>
     <style>
         h1 {
-            background-color: #f3ffbb;
-            width: 600px;
+            background-color: #85baff;
+            width: 1500px;
+            color: rgb(255, 230, 192);
+            text-align: center;
+        }
+
+        h2 {
+            background-color: #85baff;
+            width: 1500px;
+            color: rgb(255, 230, 192);
+            text-align: center;
         }
 
         h3 {
-            background-color: #c6ff3f;
+            background-color: #85baff;
             width: 700px;
+            color: rgb(255, 230, 192);
+        }
+
+        p {
+            color: midnightblue;
+        }
+        ol{
+            color: midnightblue;
+        }
+        a{
+            color: cornflowerblue;
+        }
+        th{
+            background-color: cornflowerblue;
+            width: 200px;
         }
     </style>
 </head>
@@ -50,12 +74,72 @@
 
         <h3>6- Identificar y definir los selectores: de ID, de clases, universal, de etiquetas, descendente.</h3>
         <p>ID-Este tipo de selector es igual al de clase, aunque lo aplicaremos a un único elemento HTML de nuestra
-            página. Esto se debe a que el atributo ID de HTML identifica a un elemento HTML por medio de un nombre. .</p>
+            página. Esto se debe a que el atributo ID de HTML identifica a un elemento HTML por medio de un nombre. .
+        </p>
         <p>CLASE-El selector de clases CSS combina elementos según el contenido de su atributo de clase.</p>
-        <p>UNIVERSAL-Nos permite aplicar estilos a todos los elementos HTML de un documento y se indica mediante el *,</p>
+        <p>UNIVERSAL-Nos permite aplicar estilos a todos los elementos HTML de un documento y se indica mediante el *,
+        </p>
         <p>ETIQUETA-Podemos, seleccionar varias etiquetas al mismo tiempo concatenándolas con el signo , (coma) </p>
         <p>DESCENDENTE-Con este selector seleccionamos un elemento que está dentro de otro del mismo tipo. Estos
-           seectores siempre están formados por dos o más selectores separados entre si.</p>
+            seectores siempre están formados por dos o más selectores separados entre si.</p>
+
+        <h3>7- Explicar brevemente utilizando una lista ordenada: ¿cómo funciona el CSS? </h3>
+        <ol>
+            <li>El navegador carga el HTML</li>
+            <li>Convierte el HTML en un DOM. Este nos representa el documento en la memoria del ordenador. </li>
+            <li>El navegador nos va ayudar a buscar la mayor parte de los recursos vinculados al documento HTML, como
+                las imágenes y los videos incrustados.</li>
+            <li>Este paso se llama arbol de renderizacion ya que el navegador analiza el CSS y ordena en diferentes
+                «cubos» las diferentes reglas según el tipo de selector.<br> Para cada tipo de selector que encuentre,
+                calcula qué reglas deben aplicarse y a qué nodos en el DOM se les aplica el estilo según corresponda
+            </li>
+            <li>El árbol de renderización presenta la estructura en que los nodos deben aparecer después de aplicarle
+                las reglas.</li>
+            <li>El ultimo paso lo podremos ver en la pantalla que nos muestra visual de la página </li>
+        </ol>
+
+        <h3>8- ¿Cuáles son las tres formas para vincular CSS con HTML?</h3>
+        <ol>
+            <li>utilizando la etiqueta style: Dentro fr la etiqueta "head" utilizando la etiqueta "style" es decir que
+                los CSS se aplica al mismo documento HTML</li>
+            <li>utilizando el atributo style: En nuestro HTML aplicaremos estilos directamente a la etiqueta </li>
+            <li>utilizando un archivo externo: Esta opcion es la que nos permite vincular un archivo HTML con un archivo
+                CSS. En el head del HTML debemos utilizar la etiqueta link</li>
+        </ol>
+
+        <h3>9- Ingrese al sitio CSS Zen Garden http://www.csszengarden.com y analicemos el código HTML siguiendo los siguientes pasos:<br>
+            A-Hacer clic en View All Designs<br>
+            B-Elegir dos diseños y abrirlo en pestañas distintas<br>
+            C-En el primer y segundo diseño presiona ctrl+u (esta combinación de teclas permite ver el código HTML en el navegador)<br>
+            D-Escribir la URL de los dos diseños seleccionados y responder: las etiquetas dentro de body ¿son iguales? ¿Qué es lo distinto? ¿Qué contribuye al cambio de diseño?<br>
+            E-Abrir los dos archivos CSS de los diseños seleccionados. ¿Son los mismos?<br>
+            F-En líneas generales, el mismo HTML ¿puede tener diferentes diseños?
+        </h3>
+        <a href="https://www.csszengarden.com/040/" target="_blank">Diseño 1</a> 
+        <a href="https://www.csszengarden.com/180/" target="_blank">Diseño 2</a>  
+        <p>D-Entre el diseño 1 y 2 los HTML no cambian, cambia solo su CSS </p>  
+        <p>E-No, los diseños son distintos</p>
+        <p>F-De poder puede pero algunos tienen el mismo</p>
+        
+        <h2>Parte 2</h2>
+
+        <h3>0- Utilizaremos las siguientes propiedades de CSS. Completar la columna de valores posibles para cada propiedad.</h3>
+        <table>
+            <tr>
+                <th>Propiedad</th>
+                <th>Descripción</th>
+                <th>Valores posibles</th>
+            </tr>
+            <tr>
+                <td>color</td>
+                <td>Define el color del texto.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Almendra</td>
+                <td>60</td>
+            </tr>
+        </table>
     </main>
     <footer>
 
