@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>modelo de caja</title>
     <title>Cartes Thiago</title>
     <style>
-        div {
+        .box {
             background-color: rgb(161, 236, 255);
             /*ancho*/
             width: 200px;
@@ -30,14 +30,24 @@
             
             
             margin: 50px;
+            box-shadow: 5px 5px 10px black;
+            color:darkblue
         }
     </style>
 </head>
 
 <body>
 
-    <div class="caja">
+    <div class="box"><!--padre-->
         Cet Nº30
+    </div>
+    <div class="box"><!--hijo-->
+        <div class="b">
+            B
+        </div>
+        <div class="s"><!--hijo-->
+            S
+        </div>
     </div>
 
 </body>
