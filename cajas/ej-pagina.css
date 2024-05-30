@@ -1,9 +1,9 @@
 /*Comentario CSS*/
 body {
-    background-color: #c6ac8f;
+    background-color: #5e503f;
     color: #22333b;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     margin: 0;
 }
 
@@ -15,20 +15,60 @@ nav ul {
 nav ul li {
     margin: 10px;
     display: inline-block;
+    background-color: #5e503f;
+    border: 1px solid black;
+    padding: 5px;
 } 
-a{
+nav ul li a{
     color: #c6ac8f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
 }
 header {
     background-color: #5e503f;
-    color: #eae0d5;
+    color: #c6ac8f;
     margin-top: 0;
     margin-bottom: 0;
 }
-
+section h2{
+    margin-left: 10px;
+}
+section{
+    background-color: #c6ac8f;
+    border: 2px solid #c6ac8f;
+    margin: 3px 2px;
+    margin: 10px 5px 5px 15px;
+    text-align: left;
+}
 header h1 {
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
     font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+}
+.imagen{
+    margin: 10px;
+}
+footer p{
+        color: #c6ac8f;
+}
+footer{
+    nav{
+        background-color:#5e503f;
+        ul{
+            li{
+                background-color: transparent;
+                border: 0;
+                a{
+                    color: #c6ac8f;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
 }
